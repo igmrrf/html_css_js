@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-array@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-format@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-time@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-time-format@4"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-scale@4"></script>
+        <style>
+            .container {
+                border: 2px solid red;
+                height: 300px;
+                width: 300px;
+                border: 1px solid #720570;
+            }
+            .bar {
+                fill: #720570;
+                border: 2px solid red;
+            }
+        </style>
+        <title>D#</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="center">
+        <header class="header">
+            <h1>Login</h1>
+        </header>
+        <a
+            href="https://www.nftprintpro.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="
+                border: 1px solid blue;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                color: blueviolet;
+            "
+            >JOIN</a
+        >
+        <section class="login">
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" />
+                <button onclick="Submit(event)" type="submit">Login</button>
+            </form>
+        </section>
+        <footer class="footer">a simple login</footer>
+        <svg></svg>
+        <script src="script.js"></script>
+    </body>
+</html>

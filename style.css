@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background: violet;
+  color: white;
+  padding: 5vh 10vw;
+}
+
+button {
+  padding: 10px 20px;
+  display: block;
+  width: 30%;
+  max-width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.header {
+}
+
+.login {
+  width: 100%;
+}
+.login label {
+  display: block;
+  margin-top: 20px;
+}
+.login input {
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  background: black;
+  padding: 10px 20px;
+}
