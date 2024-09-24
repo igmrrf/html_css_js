@@ -1,0 +1,21 @@
+.slideshow-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  background-image: url('https://116b9d-42.myshopify.com/cdn/shop/files/Frame-14.png?v=1718624448&width=1500');
+  background-size: cover;
+}
